@@ -1,3 +1,5 @@
 databaseChangeLog:
 - include:
       file: db/changelog/table-create.xml
+- include:
+      file: db/changelog/insert-data-to-user.xml

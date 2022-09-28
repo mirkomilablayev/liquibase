@@ -9,6 +9,7 @@ import org.springframework.data.relational.core.mapping.Table;
 @Setter
 @Getter
 @NoArgsConstructor
+@AllArgsConstructor
 @ToString
 @EqualsAndHashCode
 @Table(name = "blogs")
@@ -19,5 +20,5 @@ public class Blog {
     @Column
     private String title;
     @Column
-    private Integer user_id;
+    private Integer userId;
 }
